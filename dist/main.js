@@ -81,41 +81,32 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./01-entry-array/bar.js":
-/*!*******************************!*\
-  !*** ./01-entry-array/bar.js ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log('bar')\n\n//# sourceURL=webpack:///./01-entry-array/bar.js?");
-
-/***/ }),
-
-/***/ "./01-entry-array/foo.js":
-/*!*******************************!*\
-  !*** ./01-entry-array/foo.js ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("\n\n//# sourceURL=webpack:///./01-entry-array/foo.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ \"./src/styles/main.css\");\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
-/***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./01-entry-array/foo.js ./01-entry-array/bar.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./src/styles/main.css":
+/*!*****************************!*\
+  !*** ./src/styles/main.css ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__(/*! /Users/arraybuffer/Desktop/explores/webpack-explore/01-entry-array/foo.js */\"./01-entry-array/foo.js\");\nmodule.exports = __webpack_require__(/*! /Users/arraybuffer/Desktop/explores/webpack-explore/01-entry-array/bar.js */\"./01-entry-array/bar.js\");\n\n\n//# sourceURL=webpack:///multi_./01-entry-array/foo.js_./01-entry-array/bar.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return log; });\nfunction log() {\r\n    console.log(ret)\r\n  }\n\n//# sourceURL=webpack:///./src/styles/main.css?");
 
 /***/ })
 

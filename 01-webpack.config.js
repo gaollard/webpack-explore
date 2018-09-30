@@ -1,3 +1,4 @@
+// entry 为数组时
 const path = require('path')
 const project = '01-entry-array'
 function resolve (dir) {
